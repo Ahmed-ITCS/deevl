@@ -9,8 +9,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background-color: #000;
-    color: #fff;
+    background-color: #f0f2f5;
+    color: #333;
 }
 
 .container {
@@ -21,9 +21,10 @@ body {
 }
 
 header {
-    background: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #3b5998;
+    color: #fff;
     padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header .container {
@@ -33,10 +34,8 @@ header .container {
 }
 
 header h1 {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
-    color: #fff;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 nav ul {
@@ -51,12 +50,12 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #00ffff;
+    color: #eff2f5;
 }
 
 section {
@@ -68,42 +67,129 @@ section {
 }
 
 #hero h2 {
-    font-size: 48px;
+    font-size: 36px;
     margin-bottom: 20px;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .btn {
     display: inline-block;
-    background: #00ffff;
-    color: #000;
-    padding: 15px 40px;
+    background: #1877f2;
+    color: #fff;
+    padding: 12px 30px;
     text-decoration: none;
-    border-radius: 50px;
-    font-size: 24px;
+    border-radius: 5px;
+    font-size: 18px;
     transition: background 0.3s ease;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
 }
 
 .btn:hover {
-    background: #00ffcc;
-    color: #000;
+    background: #0d6efc;
 }
 
 .service {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .service h3 {
-    font-size: 32px;
-    margin-bottom: 20px;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 footer {
-    background: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    background: #3b5998;
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.project-card .btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.project-card .btn:hover {
+    background: #0056b3;
+}
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.team-card img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.team-card p {
+    font-size: 16px;
+    color: #666;
+}
+.testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.testimonial-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.testimonial-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.testimonial-card p:last-child {
+    margin-bottom: 0;
 }
